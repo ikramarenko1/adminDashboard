@@ -272,7 +272,7 @@ main .insights > div {
 
 main .insights > div:hover {
 	cursor: pointer;
-	transform: scale(1.05);
+	transform: scale(1.02);
 }
 
 main .insights > div span {
@@ -463,7 +463,7 @@ main .recent-orders a {
 
 .right .recent-updates .updates:hover {
 	cursor: pointer;
-	transform: scale(1.05);
+	transform: scale(1.02);
 }
 
 .right .recent-updates .updates .update {
@@ -500,7 +500,7 @@ main .recent-orders a {
 }
 
 .right .sales-analytics .item:hover {
-	transform: scale(1.05);
+	transform: scale(1.02);
 }
 
 .right .sales-analytics .item .right {
@@ -554,15 +554,12 @@ main .recent-orders a {
 
 /* --------- MEDIA QUERIES --------- */
 /* < 1430px */
-/* @media screen and (max-width: 1430px) {
-	main .insights {
-		grid-template-columns: 1fr;
-		gap: 0;
-	}
-} */
+@media screen and (max-width: 1430px) {
+	
+}
 
 /* < 1200px */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1430px) {
 	.container {
 		width: 94%;
 		grid-template-columns: 7rem auto 23rem;
@@ -573,9 +570,9 @@ main .recent-orders a {
 		display: none;
 	}
 
-	aside .sidebar a {
+	/* aside .sidebar a {
 		width: 5.6rem;
-	}
+	} */
 
 	aside .sidebar a:last-child {
 		position: relative;
@@ -597,7 +594,7 @@ main .recent-orders a {
 
 	main .recent-orders table {
 		width: 83vw;
-	}
+	}	
 
 	main table thead tr th:first-child,
 	main table thead tr th:last-child {
