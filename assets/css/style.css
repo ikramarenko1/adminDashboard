@@ -271,7 +271,8 @@ main .insights > div {
 }
 
 main .insights > div:hover { 
-	box-shadow: none;
+	cursor: pointer;
+	transform: scale(1.05);
 }
 
 main .insights > div span {
@@ -373,7 +374,8 @@ main .recent-orders table {
 }
 
 main .recent-orders table:hover { 
-	box-shadow: none;
+	cursor: pointer;
+	transform: scale(1.02);
 }
 
 main table tbody td { 
@@ -460,7 +462,8 @@ main .recent-orders a {
 }
 
 .right .recent-updates .updates:hover { 
-	box-shadow: none;
+	cursor: pointer;
+	transform: scale(1.05);
 }
 
 .right .recent-updates .updates .update {
@@ -497,7 +500,7 @@ main .recent-orders a {
 }
 
 .right .sales-analytics .item:hover { 
-	box-shadow: none;
+	transform: scale(1.05);
 }
 
 .right .sales-analytics .item .right {
