@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 /* --------- ROOT --------- */
-:root { 
+:root {
 	--color-primary: #7380ec;
 	--color-danger: #ff7782;
 	--color-success: #41f1b6;
@@ -52,7 +52,7 @@ html {
 	font-size: 14px;
 }
 
-body { 
+body {
 	width: 100vw;
 	height: 100vh;
 	font-family: poppins, sans-serif;
@@ -67,12 +67,12 @@ a {
 	color: var(--color-dark);
 }
 
-img { 
+img {
 	display: block;
 	width: 100%;
 }
 
-h1 { 
+h1 {
 	font-weight: 800;
 	font-size: 1.8rem;
 }
@@ -81,19 +81,19 @@ h2 {
 	font-size: 1.4rem;
 }
 
-h3 { 
+h3 {
 	font-size: 0.87rem;
 }
 
-h4 { 
+h4 {
 	font-size: 0.8rem;
 }
 
-h5 { 
+h5 {
 	font-size: 0.77rem;
 }
 
-small { 
+small {
 	font-size: 0.75rem;
 }
 
@@ -105,7 +105,7 @@ b {
 	color: var(--color-dark);
 }
 
-.profile-photo { 
+.profile-photo {
 	width: 2.8rem;
 	height: 2.8rem;
 	border-radius: 50%;
@@ -116,19 +116,19 @@ b {
 	color: var(--color-info-dark);
 }
 
-.primary { 
+.primary {
 	color: var(--color-primary);
 }
 
-.danger { 
+.danger {
 	color: var(--color-danger);
 }
 
-.success { 
+.success {
 	color: var(--color-success);
 }
 
-.warning { 
+.warning {
 	color: var(--color-warning);
 }
 
@@ -142,7 +142,7 @@ b {
 
 
 /* --------- SIDEBAR --------- */
-aside { 
+aside {
 	height: 100vh;
 }
 
@@ -238,11 +238,11 @@ aside .sidebar .message-count {
 
 
 /* --------- MAIN --------- */
-main { 
-	margin-top: 1.4rem;	
+main {
+	margin-top: 1.4rem;
 }
 
-main .date { 
+main .date {
 	display: inline-block;
 	background: var(--color-light);
 	border-radius: var(--border-radius-1);
@@ -270,7 +270,7 @@ main .insights > div {
 	transition: all .3s ease;
 }
 
-main .insights > div:hover { 
+main .insights > div:hover {
 	cursor: pointer;
 	transform: scale(1.05);
 }
@@ -283,11 +283,11 @@ main .insights > div span {
 	font-size: 2rem;
 }
 
-main .insights > div.expenses span { 
+main .insights > div.expenses span {
 	background: var(--color-danger);
 }
 
-main .insights > div.income span { 
+main .insights > div.income span {
 	background: var(--color-success);
 }
 
@@ -297,7 +297,7 @@ main .insights > div .middle {
 	justify-content: space-between;
 }
 
-main .insights h3 { 
+main .insights h3 {
 	margin: 1rem 0 0.6rem;
 	font-size: 1rem;
 }
@@ -348,7 +348,7 @@ main .insights .progress .number {
 	height: 100%;
 }
 
-main .insights small { 
+main .insights small {
 	margin-top: 1.6rem;
 	display: block;
 }
@@ -356,14 +356,14 @@ main .insights small {
 
 /* --------- RECENT ORDERS --------- */
 main .recent-orders {
-	margin-top: 2rem;	
+	margin-top: 2rem;
 }
 
-main .recent-orders h2 { 
+main .recent-orders h2 {
 	margin-bottom: 0.8rem;
 }
 
-main .recent-orders table { 
+main .recent-orders table {
 	background: var(--color-white);
 	width: 100%;
 	border-radius: var(--card-border-radius);
@@ -373,12 +373,12 @@ main .recent-orders table {
 	transition: all .3s ease;
 }
 
-main .recent-orders table:hover { 
+main .recent-orders table:hover {
 	cursor: pointer;
 	transform: scale(1.02);
 }
 
-main table tbody td { 
+main table tbody td {
 	height: 2.8rem;
 	border-bottom: 1px solid var(--color-light);
 	color: var(--color-dark-variant);
@@ -461,7 +461,7 @@ main .recent-orders a {
 	transition: all .3s ease;
 }
 
-.right .recent-updates .updates:hover { 
+.right .recent-updates .updates:hover {
 	cursor: pointer;
 	transform: scale(1.05);
 }
@@ -479,11 +479,11 @@ main .recent-orders a {
 
 
 /* --------- SALES ANALYTICS --------- */
-.right .sales-analytics { 
+.right .sales-analytics {
 	margin-top: 2rem;
 }
 
-.right .sales-analytics h2 { 
+.right .sales-analytics h2 {
 	margin-bottom: 0.8rem;
 }
 
@@ -499,7 +499,7 @@ main .recent-orders a {
 	transition: all .3s ease;
 }
 
-.right .sales-analytics .item:hover { 
+.right .sales-analytics .item:hover {
 	transform: scale(1.05);
 }
 
@@ -541,13 +541,13 @@ main .recent-orders a {
 	color: #fff;
 }
 
-.right .sales-analytics .add-product div { 
+.right .sales-analytics .add-product div {
 	display: flex;
 	align-items: center;
 	gap: 0.6rem;
 }
 
-.right .sales-analytics .add-product div h3 { 
+.right .sales-analytics .add-product div h3 {
 	font-weight: 600;
 }
 
@@ -563,13 +563,13 @@ main .recent-orders a {
 
 /* < 1200px */
 @media screen and (max-width: 1200px) {
-	.container { 
+	.container {
 		width: 94%;
 		grid-template-columns: 7rem auto 23rem;
 	}
 
 	aside .logo h2,
-	aside .sidebar h3 { 
+	aside .sidebar h3 {
 		display: none;
 	}
 
@@ -595,7 +595,7 @@ main .recent-orders a {
 		margin: 2rem 0 0 8.8rem;
 	}
 
-	main .recent-orders table { 
+	main .recent-orders table {
 		width: 83vw;
 	}
 
@@ -612,12 +612,12 @@ main .recent-orders a {
 
 /* < 768px */
 @media screen and (max-width: 768px) {
-	.container { 
+	.container {
 		width: 100%;
 		grid-template-columns: 1fr;
 	}
 
-	aside { 
+	aside {
 		position: fixed;
 		left: -100%;
 		background: var(--color-white);
@@ -642,7 +642,7 @@ main .recent-orders a {
 	aside .sidebar h3 {
 		display: inline;
 	}
-	
+
 	aside .sidebar a {
 		width: 100%;
 		height: 3.4rem;
@@ -669,12 +669,12 @@ main .recent-orders a {
 		width: 100%;
 	}
 
-	main .recent-orders table { 
+	main .recent-orders table {
 		width: 100%;
 		margin: 0;
 	}
 
-	.right { 
+	.right {
 		width: 94%;
 		margin: 0 auto 4rem;
 	}
@@ -699,7 +699,7 @@ main .recent-orders a {
 		left: 66%;
 	}
 
-	.right .profile .info { 
+	.right .profile .info {
 		display: none;
 	}
 
@@ -712,7 +712,7 @@ main .recent-orders a {
 		left: 1rem;
 	}
 
-	.right .top button span { 
+	.right .top button span {
 		font-size: 2rem;
 	}
 }
