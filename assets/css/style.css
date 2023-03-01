@@ -60,6 +60,7 @@ body {
 	background: var(--color-background);
 	user-select: none;
 	overflow-x: hidden;
+	color: var(--color-dark);
 }
 
 a {
@@ -167,7 +168,7 @@ aside .close {
 }
 
 aside .sidebar {
-	background: white;
+	background: var(--color-white);
 	display: flex;
 	flex-direction: column;
 	height: 86vh;
