@@ -4,8 +4,40 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Admin Dashboard</title>
+
+	<!--
+		- css
+	-->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	
+	<!-- Sidebar -->
+	<div class="sidebar">
+		<a href="#" class="logo">
+			<i class='bx bx-code-alt'></i>
+         <div class="logo__name"><span>i</span>kramarenko</div>
+		</a>
+
+		<ul class="sidebar__menu">
+			<li><a href="#"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+			<li><a href="#"><i class='bx bx-store-alt'></i>Shop</a></li>
+			<li class="active"><a href="#"><i class='bx bx-analyse'></i>Analytics</a></li>
+			<li><a href="#"><i class='bx bx-message-square-dots'></i>Tickets</a></li>
+			<li><a href="#"><i class='bx bx-group'></i>Users</a></li>
+			<li><a href="#"><i class='bx bx-cog'></i>Settings</a></li>
+		</ul>
+
+		<ul class="sidebar__menu">
+			<li>
+				<a href="#" class="logout"><i class='bx bx-log-out-circle'></i>Logout</a>
+			</li>
+		</ul>
+	</div>
+
+	<!--
+		- js
+	-->
+	<script src="assets/js/script.js"></script>
 </body>
 </html>

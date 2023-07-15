@@ -1,0 +1,22 @@
+// ============= VARIABLES ============= //
+:root {
+	--light: #f6f6f9;
+	--grey: #eee;
+	--dark: #363949;
+}
+
+body.dark {
+	--light: #181a1e;
+	--grey: #25252c;
+	--dark: #fbfbfb
+}
+
+$primary: #1976D2;
+$light-primary: #CFE8FF;
+$dark-grey: #AAAAAA;
+$danger: #D32F2F;
+$light-danger: #FECDD3;
+$warning: #FBC02D;
+$light-warning: #FFF2C6;
+$success: #388E3C;
+$light-success: #BBF7D0;

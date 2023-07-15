@@ -1,3 +1,11 @@
 /*
 	===== GLOBAL STYLES =====
 */
+* {
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background: var(--grey);
+	overflow-x: hidden;
+}
