@@ -36,6 +36,12 @@
 				}
 			}
 		}
+
+		// .sidebar.close~.content
+		&~.content {
+			width: calc(100% - 60px);
+			left: 60px;
+		}
 	}
 
 	// .sidebar .logo
