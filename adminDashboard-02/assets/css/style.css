@@ -373,3 +373,51 @@ body {
   grid-gap: 10px;
   font-weight: 500;
 }
+.content main .insights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 24px;
+  margin-top: 36px;
+}
+.content main .insights li {
+  padding: 24px;
+  background: var(--light);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  grid-gap: 24px;
+  cursor: pointer;
+}
+.content main .insights li .bx {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content main .insights li:nth-child(1) .bx {
+  background: #CFE8FF;
+  color: #1976D2;
+}
+.content main .insights li:nth-child(2) .bx {
+  background: #FFF2C6;
+  color: #FBC02D;
+}
+.content main .insights li:nth-child(3) .bx {
+  background: #BBF7D0;
+  color: #388E3C;
+}
+.content main .insights li:nth-child(4) .bx {
+  background: #FECDD3;
+  color: #D32F2F;
+}
+.content main .insights li .info h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--dark);
+}
+.content main .insights li .info p {
+  color: var(--dark);
+}

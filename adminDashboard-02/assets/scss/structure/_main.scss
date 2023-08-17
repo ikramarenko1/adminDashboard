@@ -238,5 +238,84 @@
 				font-weight: 500;
 			}
 		}
+
+		// .content main .insigths
+
+		.insights {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+			grid-gap: 24px;
+			margin-top: 36px;
+
+			// .content main .insigths li
+
+			li {
+				padding: 24px;
+				background: var(--light);
+				border-radius: 20px;
+				display: flex;
+				align-items: center;
+				grid-gap: 24px;
+				cursor: pointer;
+
+				// .content main .insigths li .bx
+
+				.bx {
+					width: 80px;
+					height: 80px;
+					border-radius: 10px;
+					font-size: 36px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+
+				// .content main .insigths li:nth-child(1) .bx
+
+				&:nth-child(1) .bx {
+					background: $light-primary;
+					color: $primary;
+				}
+
+				// .content main .insigths li:nth-child(2) .bx
+
+				&:nth-child(2) .bx {
+					background: $light-warning;
+					color: $warning;
+				}
+
+				// .content main .insigths li:nth-child(3) .bx
+
+				&:nth-child(3) .bx {
+					background: $light-success;
+					color: $success;
+				}
+
+				// .content main .insigths li:nth-child(4) .bx
+
+				&:nth-child(4) .bx {
+					background: $light-danger;
+					color: $danger;
+				}
+
+				// .content main .insigths li .info
+
+				.info {
+					// .content main .insigths li .info h3
+
+					h3 {
+						font-size: 24px;
+						font-weight: 600;
+						color: var(--dark);
+					}
+
+					// .content main .insigths li .info p
+
+					p {
+						color: var(--dark);
+					}
+				}
+			}
+		}
 	}
 }
