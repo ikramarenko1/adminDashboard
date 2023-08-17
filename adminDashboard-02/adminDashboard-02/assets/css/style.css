@@ -354,22 +354,6 @@ body {
   color: var(--dark);
 }
 .content main .header .left .breadcumb li a {
-  color: var(--dark);
+  color: var(--grey);
   pointer-events: none;
-}
-.content main .header .left .breadcumb li a.active {
-  color: #1976D2;
-  pointer-events: none;
-}
-.content main .header .report {
-  height: 36px;
-  padding: 0 16px;
-  border-radius: 36px;
-  background: #1976D2;
-  color: var(--light);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-gap: 10px;
-  font-weight: 500;
 }
